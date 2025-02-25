@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 id="js">Js3</h1>
+    <input id="i1">
+    <h3 id="m">?</h3>
+    <input id="i2">
+    <div id="d1">
+    <button onclick="sum()" id="b1">+</button>
+    <button onclick="sub()" id="b2">-</button>
+    <button onclick="multiply()" id="b3">x</button>
+    <button onclick="de()" id="b4">÷</button>
+</div>
+<h1 id="ans">None</h1>
+<script>
+    function sum() {
+        let x
+        x=parseInt(document.getElementById("i1").value)
+        let y
+        y=parseInt(document.getElementById("i2").value)
+        let z
+        z= x+y
+        document.getElementById("m").innerHTML="+";
+        document.getElementById("ans").innerHTML=z;
+        document.getElementById("ans").style.opacity="100%";
+    }
+    function sub() {
+        let x
+        x=parseInt(document.getElementById("i1").value)
+        let y
+        y=parseInt(document.getElementById("i2").value)
+        let z
+        z= x-y
+        document.getElementById("m").innerHTML="-";
+        document.getElementById("ans").innerHTML=z;
+        document.getElementById("ans").style.opacity="100%";
+    }
+    function multiply() {
+        let x
+        x=parseInt(document.getElementById("i1").value)
+        let y
+        y=parseInt(document.getElementById("i2").value)
+        let z
+        z= x*y
+        document.getElementById("m").innerHTML="x";
+        document.getElementById("ans").innerHTML=z;
+        document.getElementById("ans").style.opacity="100%";
+    }
+    function de() {
+        let x
+        x=parseInt(document.getElementById("i1").value)
+        let y
+        y=parseInt(document.getElementById("i2").value)
+        let z
+        z= x/y
+        document.getElementById("m").innerHTML="÷";
+        document.getElementById("ans").innerHTML=z;
+        document.getElementById("ans").style.opacity="100%";
+    }
+</script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

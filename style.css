@@ -1,0 +1,47 @@
+#i1{
+    position: absolute;
+    top: 20%;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 8px;
+    left: 55%;
+}
+#i2{
+    position: absolute;
+    top: 20%;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 8px;
+    left: 30%;
+}
+
+body{
+    background-color:black ;
+}
+#m{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 14.5%;
+    left: 51%;
+}
+#b1,#b2,#b3,#b4{
+    background-color: black;
+    color: white;
+}
+#d1{
+    position: absolute;
+    top: 30%;
+    left: 46%;
+}
+#ans{
+    margin-top: 25%;
+    text-align: center;
+    font-size: 100px;
+    opacity: 40%;
+    color: white;
+}
+#js{
+    color: white;
+    margin-top: 0%;
+}
